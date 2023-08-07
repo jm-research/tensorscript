@@ -13,9 +13,6 @@ set(project_version "${${PROJECT_NAME}_VERSION}")
 
 message(STATUS "Project '${PROJECT_NAME}', version: '${project_version}'")
 
-# temp define: https://discourse.llvm.org/t/python-api-problem/945
-add_compile_options(-fno-rtti)
-
 if (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
   # for debug of stl structure while using clang compile
   add_compile_options(-fstandalone-debug)
