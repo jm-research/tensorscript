@@ -5,7 +5,7 @@
 #include <set>
 #include <vector>
 
-namespace triton {
+namespace tensorscript {
 namespace tools {
 
 template <class node_t>
@@ -60,6 +60,6 @@ class graph {
 };
 
 }  // namespace tools
-}  // namespace triton
+}  // namespace tensorscript
 
 #endif  // TENSORSCRIPT_TOOLS_THREAD_GRAPH_H
